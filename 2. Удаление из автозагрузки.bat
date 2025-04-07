@@ -1,0 +1,1 @@
+del /f /s /q "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Ethernet setings.bat"
