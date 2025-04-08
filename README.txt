@@ -1,11 +1,4 @@
-1. Запустите скрипт "Предварительная настройка.ps1"
-2. Откройте окно "Выполнить" 
-3. Введите команду netplwiz или control userpasswords2
-4. Нажмите «Enter»
-5. Выберите необходимого пользователя в списке «Пользователи этого компьютера»
-6. Снимите флажок «Требовать ввод имени пользователя и пароля»
-7. Нажмите кнопку «Применить»
-8. Введите текущий пароль пользователя в поля «Пароль» и «Подтверждение»
-9. Нажмите кнопку «ОК» в окнах «Автоматический вход в систему» и «Учетные записи пользователей»
-10. После перезагрузки, подключитесь по RDP и запустите скрипт "Удаление из автозагрузки.ps1"
-11. Для отключения антивируса Set-MpPreference -DisableRealtimeMonitoring $true, для включения Set-MpPreference -DisableRealtimeMonitoring $false
+netplwiz   
+userpasswords2
+Set-MpPreference -DisableRealtimeMonitoring $true
+Set-MpPreference -DisableRealtimeMonitoring $false
