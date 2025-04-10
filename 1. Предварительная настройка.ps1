@@ -1,4 +1,5 @@
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+[Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding("UTF-8")
+
 Write-Host "Копирование файлф Ethernet_settings в автозагрузку"
 Copy-Item "C:\Users\Administrator\Downloads\111\WindowsEthernetSeting-main\Ethernet_settings.exe" -Destination "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
